@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="keywords" content="musica, crear, creacion, colombia, colombiana">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com"> 
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+        <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Anton&family=Merriweather:wght@300&family=Secular+One&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" type="text/css" href="normalize.css">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="icon" href="Imagenes/icono.ico">
+
+        <title>Colombia Musical - Acerca de</title>
+
+        <script type="text/javascript">
+            function ver_ini(n) 
+            {
+                document.getElementById("subseccion_ini2").style.display="block"
+            }
+            function ocultar_ini(n) 
+            {
+                document.getElementById("subseccion_ini2").style.display="none"
+            }
+        </script>
+
+    </head>
+
+    <body>
+        <header>
+            <div id="navegador_1">
+                <ul>
+                    <li id="seccion_ini1"><a href="index.html">Inicio</a></li>
+                    <li id="seccion_ini2" onmouseover="ver_ini(1)" onmouseout="ocultar_ini(1)"><a href="#">Regiones</a>
+                        <div id="subseccion_ini2">
+                            <p><a href="regiones/region_andina/region_andina.html"> Región Andina</a></p>
+                            <p><a href="regiones/region_caribe/region_caribe.html"> Región Caribe</a></p>
+                            <p><a href="regiones/region_pacifica/region_pacifica.html"> Región Pacífica</a></p>
+                            <p><a href="regiones/region_orinoquia/region_orinoquia.html"> Región Orinoquía</a></p>
+                            <p><a href="regiones/region_amazonia/region_amazonia.html"> Región Amazonía</a></p>  
+                        </div>              </li>
+                    <li id="seccion_ini3"><a href="nosotros.html">Quienes somos</a></li>
+                </ul>
+                <div class="borrar"></div>
+            </div>
+        </header>
+        <br>
+        <div id="caja_index">
+
+            <img id="escudo_utp" src="/Imagenes/Escudo_UTP.png" alt="Escudo UTP" title="Escudo UTP"> 
+            
+            <h1 id="Titulo">
+                <img id="notas_musicales" src="Imagenes/notas_musicales.jpeg"
+                alt="Notas Músicales" title="Notas Músicales"> Quienes Somos 
+            </h1>
+    
+            <div class="ImagenCentral">
+                <img id="Imagen1" src="Imagenes/quieres_somos.jpeg" alt="Musica de Colombia" title="Musica de Colombia.">
+            </div>
+        </div>
+        <br>
+        <p id="parrafo_nosotros">
+            Somos una pagina que busca ayudar a los musicos a la facil interacion con el
+            folclor colombiano y sus raices, queremos seguir creciendo y ayudando a las personas que quieren empaparse con la riquesa de la musica colombia.
+            <br><br>
+            Si alguien desea ponerse en contacto con nosotros para hacernos algun aporte y ayudarnos a hacernos cada dia mejores se puede poner en contacto con nosotros:
+            <br><br>
+            Correo:
+            <br>
+            Celular: 
+        </p>
+        <br>
+
+        <footer>
+            ColMix &copy; 2022
+        </footer>
+    </body>
+
+</html>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="keywords" content="musica, crear, creacion, colombia, colombiana">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com"> 
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+        <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Anton&family=Merriweather:wght@300&family=Secular+One&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" type="text/css" href="../../normalize.css">
+        <link rel="icon" href="../../Imagenes/icono.ico">
+        <link rel="stylesheet" type="text/css" href="../../style.css">
+
+        <title>Colombia Musical - Región_Orinoquía</title>
+
+        <script type="text/javascript">
+            function ver_ini(n) 
+            {
+                document.getElementById("subseccion_ini"+n).style.display="block"
+            }
+            function ocultar_ini(n) 
+            {
+                document.getElementById("subseccion_ini"+n).style.display="none"
+            }
+        </script>
+
+    </head>
+
+    <body>
+        <header>
+            
+            <div id="navegador_1">
+                <ul>
+                    <li id="seccion_ini1" onmouseover="ver_ini(1)" onmouseout="ocultar_ini(1)"><a href="../../index.html">Inicio</a></li>
+
+                    <li id="seccion_ini2" onmouseover="ver_ini(2)" onmouseout="ocultar_ini(2)"><a href="#">Regiones</a>
+                        <div id="subseccion_ini2">
+                            <p><a href="../region_andina/region_andina.html"> Región Andina</a></p>
+                            <p><a href="../region_atlantica/region_atlantica.html"> Región Atlantica</a></p>
+                            <p><a href="../region_pacifica/region_pacifica.html"> Región Pacífica</a></p>
+                            <p><a href="../region_orinoquia/region_orinoquia.html"> Región Orinoquía</a></p>
+                            <p><a href="../region_amazonia/region_amazonia.html"> Región Amazonía</a></p>  
+                        </div>
+                    </li>
+
+                    <li id="seccion_ini3" onmouseover="ver_ini(3)" onmouseout="ocultar_ini(3)"><a href="#">Generos</a>
+                        <div id="subseccion_ini3">
+                            <p><a href="Generos/Genero_1.html"> Genero 1</a></p>
+                            <p><a href="Generos/Genero_2.html"> Genero 2</a></p>
+                            <p><a href="Generos/Genero_3.html"> Genero 3</a></p>
+                            <p><a href="Generos/Genero_.4html"> Genero 4</a></p>
+                        </div>
+                    </li>
+
+                    <li id="seccion_ini4" onmouseover="ver_ini(4)" onmouseout="ocultar_ini(4)"><a href="../../nosotros.html">Quienes somos</a></li>
+
+                </ul>
+                <div class="borrar"></div>
+            </div>
+
+        </header>
+        <br><br>
+
+        <h1 id="Titulo"> Región Orinoquía </h1>
+        
+        <div class="ImagenCentral">
+            <img id="img_reg_ori_" src="../../Imagenes/region_orinoquia.jpeg" alt="Región Orinoquía" title="Región Orinoquía">
+        </div>
+        
+        <footer>
+            Colombia Musical &copy; 2022
+        </footer>
+
+    </body>
+
+</html>

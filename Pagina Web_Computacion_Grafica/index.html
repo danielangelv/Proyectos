@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="keywords" content="musica, crear, creacion, colombia, colombiana">
+
+    <link rel="icon" href="Imagenes/icono.ico">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Merriweather:wght@300&family=Secular+One&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="normalize.css">
+
+    <title>Colombia Músical</title>
+
+    <script type="text/javascript">
+        function ver_ini(n) 
+        {
+            document.getElementById("subseccion_ini2").style.display="block"
+        }
+        function ocultar_ini(n) 
+        {
+            document.getElementById("subseccion_ini2").style.display="none"
+        }
+    </script>
+
+</head>
+
+<body>
+    <header>
+        <div id="navegador_1">
+            <ul>
+                <li id="seccion_ini1"><a href="index.html">Inicio</a></li>
+                <li id="seccion_ini2" onmouseover="ver_ini(1)" onmouseout="ocultar_ini(1)"><a href="#">Regiones</a>
+                    <div id="subseccion_ini2">
+                        <p><a href="regiones/region_andina/region_andina.html"> Región Andina</a></p>
+                        <p><a href="regiones/region_atlantica/region_atlantica.html"> Región Atlantica</a></p>
+                        <p><a href="regiones/region_pacifica/region_pacifica.html"> Región Pacífica</a></p>
+                        <p><a href="regiones/region_orinoquia/region_orinoquia.html"> Región Orinoquía</a></p>
+                        <p><a href="regiones/region_amazonia/region_amazonia.html"> Región Amazonía</a></p>  
+                    </div>              </li>
+                <li id="seccion_ini3"><a href="nosotros.html">Quienes somos</a></li>
+            </ul>
+            <div class="borrar"></div>
+        </div>
+    </header>
+    <br>
+
+    <div id="caja_index">
+
+        <img id="escudo_utp" src="/Imagenes/Escudo_UTP.png" alt="Escudo UTP" title="Escudo UTP"> 
+        
+        <h1 id="Titulo">
+            <img id="notas_musicales" src="Imagenes/notas_musicales.jpeg"
+            alt="Notas Músicales" title="Notas Músicales"> Colombia Musical 
+        </h1>
+
+        <div class="ImagenCentral">
+            <img id="Imagen1" src="Imagenes/bellas_artes.jpeg" alt="Musica de Colombia" title="Musica de Colombia.">
+        </div>
+    </div>
+
+    <a id="enlace_licen_musica" href="https://artes.utp.edu.co/musica/inicio.html"> <b>Programa de Licenciatura en Música de la Universidad Tecnologica de Pereira</b> </a>
+
+    <div id="Caja_licen_musica">
+        <p id="Mision_licen_musica">
+            Es un programa: que participa en procesos artísticos, humanísticos y académicos de la región, mediante la
+            creación de redes y la interacción con el medio.
+
+            Es una respuesta a las necesidades del entorno: Busca la formación del Licenciado(a) en Música capaz de
+            crear, transformar, gestionar, innovar, intercambiar y transferir conocimientos, así como impulsar y
+            desarrollar procesos musicales que impacten en el crecimiento artístico - cultural.
+
+            Es una propuesta formadora: que se actualiza y desarrolla con la capacidad de generar procesos académicos en
+            la proyección de la docencia, la extensión, la investigación y la innovación en los ámbitos pedagógicos y
+            culturales; propende por el reconocimiento de los valores humanos como el respeto, la responsabilidad, la
+            honestidad y la dignidad humana, acordes con los principios rectores, propósitos y políticas de la UTP.
+        </p>
+    </div>
+    <br><br><br>
+
+    <footer>
+        Colombia Músical &copy; 2022
+    </footer>
+
+</body>
+
+</html>

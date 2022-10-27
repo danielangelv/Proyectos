@@ -1,0 +1,191 @@
+*
+{
+    font-family: 'Secular One', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+#Titulo
+{
+    font-family: 'Lobster', 'Times New Roman', Times, serif;
+    background: black;
+    text-align: center;
+    color: white;
+    margin: auto;
+    text-shadow: 3px 3px 5px red;
+    font-size: 100px;
+}
+#Caja_licen_musica
+{
+    width: 95%;
+    margin: auto;
+    margin-top: 5px;
+    border: solid;
+    border-radius: 10px;
+    border-color: black;
+}
+#parrafo_nosotros
+{
+
+    width: 95%;
+    margin: auto;
+    margin-top: 5px;
+    border: solid;
+    font-size: 30px;
+    border-radius: 10px;
+    border-color: black;
+    font-family: 'Times New Roman', Times, serif;  
+}
+#Mision_licen_musica
+{
+    text-align: center;
+    margin: auto;
+    font-size: 23px;
+    padding: 50px;
+    font-family: 'Times New Roman', Times, serif;  
+}
+#descripcion_regiones
+{
+    text-align: center;
+    margin: auto;
+    font-size: 23px;
+    padding: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#caja_index
+{
+    background-color: black; 
+    width: 95%; 
+    margin: auto; 
+    border: solid; 
+    border-radius: 10px; 
+    border-color: red;
+}
+/*Todo lo que envuelve la presentancion del menu inicial*/
+/*--------------------------------------------------------------------------------------------------*/
+#enlace_licen_musica
+{
+    width: 95%;
+    display: block;
+    font-family:'Times New Roman', Times, serif;
+    background: black;
+    text-align: center;
+    color: white;
+    margin: auto;
+    margin-top: 20px;
+    text-shadow: 3px 3px 5px red;
+    font-size: 50px;
+    height: auto;
+    text-decoration: dotted;
+    border: solid;
+    border-radius: 10px;
+}
+/*--------------------------------------------------------------------------------------------------*/
+/*Las imagenes*/
+/*--------------------------------------------------------------------------------------------------*/
+
+img
+{
+    height: 900px;
+    border-style: none;
+    max-width: 100%;
+    padding: 50px;
+    margin: auto;
+    display: block;
+}
+#escudo_utp
+{
+    float: left;
+    height: 110px;
+    padding: 5px;
+}
+#notas_musicales
+{
+    float: right;
+    height: 110px;
+    padding: 5px;
+}
+/*--------------------------------------------------------------------------------------------------*/
+/*Menu principal*/
+#navegador_1 
+{ 
+    background-color: black; 
+    padding: 8px;
+    font-size: 20px; 
+}
+#navegador_1 li 
+{ 
+    margin: 0px 5px; 
+    padding: 16px; 
+    background-color: rgb(185, 32, 32); 
+    width: 20%;
+    float: left;
+    list-style-type: none;
+    text-align: center;  
+    position: relative; 
+}
+#navegador_1 li:hover 
+{ 
+    background-color: #a71a1ae0; 
+}
+#navegador_1 li a:link, #navegador_1 li a:visited 
+{ 
+    color: #feffe4; 
+    text-decoration: none; 
+}
+#navegador_1 li a:hover, #navegador_1 li a:active 
+{ 
+    color:#fbce06 ; 
+    text-decoration: none; 
+}
+.borrar 
+{ 
+    clear: both; 
+}
+#subseccion_ini2
+{
+    display: none;
+    position: absolute;
+    top: 100%; 
+    left: 10%;
+    background-color: #a71a1ae0; 
+    font-size: 18px;  
+    padding: 8px ; 
+}
+#subseccion_ini3
+{
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0; 
+    background-color: #a71a1ae0; 
+    font-size: 20px;  
+    padding: 8px; 
+    width: 200px;
+}
+/*--------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------*/
+
+#Imagen_reg_andi_1
+{
+    height: 900px;
+}
+#base_1_reg_andi
+{
+    height: 400px;
+}
+#audio_1_reg_andi
+{
+    display: block;
+    margin: auto;
+}
+#Imagen_reg_cari_1
+{
+    height: 900px;
+}
+#Imagen_reg_Ori_1
+{
+    height: 900px;
+}
+
+
+/*--------------------------------------------------------------------------------------------------*/
